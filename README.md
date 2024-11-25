@@ -131,8 +131,8 @@ We attached our log file in `ast/egs/esc50/test-esc50-f10-t10-p-b48-lr1e-5`, the
 To run the recipe, simply comment out `. /data/sls/scratch/share-201907/slstoolchainrc` in `ast/egs/esc50/run_esc.sh`, adjust the path if needed, and run:
 ``` 
 cd ast/egs/esc50
-(slurm user) sbatch run_esc50.sh
-(local user) ./run_esc50.sh
+(slurm user) sbatch run_esc.sh
+(local user) ./run_esc.sh
 ```  
 
 ## Speechcommands V2 Recipe  
